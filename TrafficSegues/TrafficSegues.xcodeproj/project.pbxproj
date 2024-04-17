@@ -7,31 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D85197062063ACF80095286E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85197052063ACF80095286E /* AppDelegate.swift */; };
-		D85197082063ACF80095286E /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85197072063ACF80095286E /* IntroductionViewController.swift */; };
-		D851970B2063ACF80095286E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85197092063ACF80095286E /* Main.storyboard */; };
-		D851970D2063ACF80095286E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D851970C2063ACF80095286E /* Assets.xcassets */; };
-		D85197102063ACF80095286E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D851970E2063ACF80095286E /* LaunchScreen.storyboard */; };
-		D85197182063B1C90095286E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85197172063B1C90095286E /* QuestionViewController.swift */; };
-		D851971A2063B1D40095286E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85197192063B1D40095286E /* ResultsViewController.swift */; };
-		D851971C2063C2760095286E /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D851971B2063C2760095286E /* QuestionData.swift */; };
+		D8916B3F206285ED0044968B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916B3E206285ED0044968B /* AppDelegate.swift */; };
+		D8916B41206285ED0044968B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8916B40206285ED0044968B /* ViewController.swift */; };
+		D8916B44206285ED0044968B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8916B42206285ED0044968B /* Main.storyboard */; };
+		D8916B46206285ED0044968B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8916B45206285ED0044968B /* Assets.xcassets */; };
+		D8916B49206285ED0044968B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8916B47206285ED0044968B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D85197022063ACF80095286E /* PersonalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D85197052063ACF80095286E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D85197072063ACF80095286E /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
-		D851970A2063ACF80095286E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D851970C2063ACF80095286E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D851970F2063ACF80095286E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D85197112063ACF80095286E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D85197172063B1C90095286E /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
-		D85197192063B1D40095286E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
-		D851971B2063C2760095286E /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
+		D8916B3B206285ED0044968B /* TrafficSegues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficSegues.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8916B3E206285ED0044968B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8916B40206285ED0044968B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8916B43206285ED0044968B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8916B45206285ED0044968B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8916B48206285ED0044968B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8916B4A206285ED0044968B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D85196FF2063ACF80095286E /* Frameworks */ = {
+		D8916B38206285ED0044968B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,75 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D85196F92063ACF80095286E = {
+		D8916B32206285ED0044968B = {
 			isa = PBXGroup;
 			children = (
-				D85197042063ACF80095286E /* PersonalityQuiz */,
-				D85197032063ACF80095286E /* Products */,
+				D8916B3D206285ED0044968B /* TrafficSegues */,
+				D8916B3C206285ED0044968B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D85197032063ACF80095286E /* Products */ = {
+		D8916B3C206285ED0044968B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D85197022063ACF80095286E /* PersonalityQuiz.app */,
+				D8916B3B206285ED0044968B /* TrafficSegues.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D85197042063ACF80095286E /* PersonalityQuiz */ = {
+		D8916B3D206285ED0044968B /* TrafficSegues */ = {
 			isa = PBXGroup;
 			children = (
-				D85197052063ACF80095286E /* AppDelegate.swift */,
-				D85197072063ACF80095286E /* IntroductionViewController.swift */,
-				D85197172063B1C90095286E /* QuestionViewController.swift */,
-				D85197192063B1D40095286E /* ResultsViewController.swift */,
-				D851971B2063C2760095286E /* QuestionData.swift */,
-				D85197092063ACF80095286E /* Main.storyboard */,
-				D851970C2063ACF80095286E /* Assets.xcassets */,
-				D851970E2063ACF80095286E /* LaunchScreen.storyboard */,
-				D85197112063ACF80095286E /* Info.plist */,
+				D8916B3E206285ED0044968B /* AppDelegate.swift */,
+				D8916B40206285ED0044968B /* ViewController.swift */,
+				D8916B42206285ED0044968B /* Main.storyboard */,
+				D8916B45206285ED0044968B /* Assets.xcassets */,
+				D8916B47206285ED0044968B /* LaunchScreen.storyboard */,
+				D8916B4A206285ED0044968B /* Info.plist */,
 			);
-			path = PersonalityQuiz;
+			path = TrafficSegues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D85197012063ACF80095286E /* PersonalityQuiz */ = {
+		D8916B3A206285ED0044968B /* TrafficSegues */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D85197142063ACF80095286E /* Build configuration list for PBXNativeTarget "PersonalityQuiz" */;
+			buildConfigurationList = D8916B4D206285ED0044968B /* Build configuration list for PBXNativeTarget "TrafficSegues" */;
 			buildPhases = (
-				D85196FE2063ACF80095286E /* Sources */,
-				D85196FF2063ACF80095286E /* Frameworks */,
-				D85197002063ACF80095286E /* Resources */,
+				D8916B37206285ED0044968B /* Sources */,
+				D8916B38206285ED0044968B /* Frameworks */,
+				D8916B39206285ED0044968B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PersonalityQuiz;
-			productName = PersonalityQuiz;
-			productReference = D85197022063ACF80095286E /* PersonalityQuiz.app */;
+			name = TrafficSegues;
+			productName = TrafficSegues;
+			productReference = D8916B3B206285ED0044968B /* TrafficSegues.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D85196FA2063ACF80095286E /* Project object */ = {
+		D8916B33206285ED0044968B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Doan Le Thieu";
 				TargetAttributes = {
-					D85197012063ACF80095286E = {
+					D8916B3A206285ED0044968B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = D85196FD2063ACF80095286E /* Build configuration list for PBXProject "PersonalityQuiz" */;
+			buildConfigurationList = D8916B36206285ED0044968B /* Build configuration list for PBXProject "TrafficSegues" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,57 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = D85196F92063ACF80095286E;
-			productRefGroup = D85197032063ACF80095286E /* Products */;
+			mainGroup = D8916B32206285ED0044968B;
+			productRefGroup = D8916B3C206285ED0044968B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D85197012063ACF80095286E /* PersonalityQuiz */,
+				D8916B3A206285ED0044968B /* TrafficSegues */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D85197002063ACF80095286E /* Resources */ = {
+		D8916B39206285ED0044968B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D85197102063ACF80095286E /* LaunchScreen.storyboard in Resources */,
-				D851970D2063ACF80095286E /* Assets.xcassets in Resources */,
-				D851970B2063ACF80095286E /* Main.storyboard in Resources */,
+				D8916B49206285ED0044968B /* LaunchScreen.storyboard in Resources */,
+				D8916B46206285ED0044968B /* Assets.xcassets in Resources */,
+				D8916B44206285ED0044968B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D85196FE2063ACF80095286E /* Sources */ = {
+		D8916B37206285ED0044968B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D85197082063ACF80095286E /* IntroductionViewController.swift in Sources */,
-				D85197062063ACF80095286E /* AppDelegate.swift in Sources */,
-				D851971C2063C2760095286E /* QuestionData.swift in Sources */,
-				D85197182063B1C90095286E /* QuestionViewController.swift in Sources */,
-				D851971A2063B1D40095286E /* ResultsViewController.swift in Sources */,
+				D8916B41206285ED0044968B /* ViewController.swift in Sources */,
+				D8916B3F206285ED0044968B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D85197092063ACF80095286E /* Main.storyboard */ = {
+		D8916B42206285ED0044968B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D851970A2063ACF80095286E /* Base */,
+				D8916B43206285ED0044968B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D851970E2063ACF80095286E /* LaunchScreen.storyboard */ = {
+		D8916B47206285ED0044968B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D851970F2063ACF80095286E /* Base */,
+				D8916B48206285ED0044968B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -175,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D85197122063ACF80095286E /* Debug */ = {
+		D8916B4B206285ED0044968B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		D85197132063ACF80095286E /* Release */ = {
+		D8916B4C206285ED0044968B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,28 +270,28 @@
 			};
 			name = Release;
 		};
-		D85197152063ACF80095286E /* Debug */ = {
+		D8916B4E206285ED0044968B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PersonalityQuiz/Info.plist;
+				INFOPLIST_FILE = TrafficSegues/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.doanthieu.PersonalityQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doanthieu.TrafficSegues;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D85197162063ACF80095286E /* Release */ = {
+		D8916B4F206285ED0044968B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PersonalityQuiz/Info.plist;
+				INFOPLIST_FILE = TrafficSegues/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.doanthieu.PersonalityQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doanthieu.TrafficSegues;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,25 +301,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D85196FD2063ACF80095286E /* Build configuration list for PBXProject "PersonalityQuiz" */ = {
+		D8916B36206285ED0044968B /* Build configuration list for PBXProject "TrafficSegues" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D85197122063ACF80095286E /* Debug */,
-				D85197132063ACF80095286E /* Release */,
+				D8916B4B206285ED0044968B /* Debug */,
+				D8916B4C206285ED0044968B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D85197142063ACF80095286E /* Build configuration list for PBXNativeTarget "PersonalityQuiz" */ = {
+		D8916B4D206285ED0044968B /* Build configuration list for PBXNativeTarget "TrafficSegues" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D85197152063ACF80095286E /* Debug */,
-				D85197162063ACF80095286E /* Release */,
+				D8916B4E206285ED0044968B /* Debug */,
+				D8916B4F206285ED0044968B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D85196FA2063ACF80095286E /* Project object */;
+	rootObject = D8916B33206285ED0044968B /* Project object */;
 }
