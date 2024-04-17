@@ -2,43 +2,47 @@
 //  ViewController.swift
 //  AppEventCount
 //
-//  Created by student on 01/04/24.
+//  Created by Doan Le Thieu on 3/23/18.
+//  Copyright © 2018 Doan Le Thieu. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var didFinishLaunchingWithOptionsLabel: UILabel!
-    @IBOutlet weak var configuratonForConnectingLabel: UILabel!
-    @IBOutlet weak var willConnectToLabel: UILabel!
-    @IBOutlet weak var sceneDidBecomeActiveLabel: UILabel!
-    @IBOutlet weak var sceneWillResignActiveLabel: UILabel!
-    @IBOutlet weak var scenewillEnterForegroundLabel: UILabel!
-    @IBOutlet weak var sceneDidEnterBackgroundLabel: UILabel!
-    var willConnectCount = 0
-    var didBecomeActiveCount = 0
-    var willResignCount = 0
+    @IBOutlet weak var didFinishLaunchingLabel: UILabel!
+    @IBOutlet weak var willResignActiveLabel: UILabel!
+    @IBOutlet weak var didEnterBackgroundLabel: UILabel!
+    @IBOutlet weak var willEnterForegroundLabel: UILabel!
+    @IBOutlet weak var didBecomeActiveLabel: UILabel!
+    @IBOutlet weak var willTerminateLabel: UILabel!
+    
+    var launchCount = 0
+    var resignActiveCount = 0
+    var enterBackgroundCount = 0
     var enterForegroundCount = 0
-    var didEnterBackgroundCount = 0
-    var appDelegate = (UIApplication.shared.delegate as! AppDelegate)
+    var becomeActiveCount = 0
+    var terminateCount = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view, typically from a nib.
         
+        updateView()
     }
-    
-    func updateView(){
-        didFinishLaunchingWithOptionsLabel.text = "The App has launched \(appDelegate.launchCount) time(s)"
-        configuratonForConnectingLabel.text = "Configuration connecting count = \(appDelegate.configurationForConnectingCount)"
-        willConnectToLabel.text = "Connect to label count = \(willConnectCount)"
-        sceneDidBecomeActiveLabel.text = "Scene active count = \(didBecomeActiveCount)"
-        sceneWillResignActiveLabel.text = "Scene inactive count = \(willResignCount)"
-        scenewillEnterForegroundLabel.text = "Scene is in foreground count = \(enterForegroundCount)"
-        sceneDidEnterBackgroundLabel.text = "Scene is in background count = \(didEnterBackgroundCount)"
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
-    
 
-
+    func updateView() {
+        didFinishLaunchingLabel.text = "The app has launched \(launchCount) time(s)."
+        willResignActiveLabel.text = "The app has resigned active \(resignActiveCount) time(s)."
+        didEnterBackgroundLabel.text = "The app has entered background \(enterBackgroundCount) time(s)."
+        willEnterForegroundLabel.text = "The app has entered foreground \(enterForegroundCount) time(s)."
+        didBecomeActiveLabel.text = "The app has became active \(becomeActiveCount) time(s)."
+        willTerminateLabel.text = "The app has terminated \(terminateCount) time(s)."
+    }
 }
 
